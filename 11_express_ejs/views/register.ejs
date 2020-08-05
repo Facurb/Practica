@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="/css/color.css">
+        <link rel="stylesheet" href="/css/par_impar.css">
+        <%- include ("partials/headers.ejs"); %>
+    </head>
+    <body>
+        <h1>Register Here</h1>
+        <form action="POST" action="/users/register">
+        <label for=""> Name </label>  
+        <input type="text" name="Nombre">
+
+           <p>Contacts</p>
+        <% for (let i = 0; i<10 ; i++ ) {  %>
+               <label for="" class="c"> Contact <%= i %> </label>
+               <% if (i % 2 == 0){ %>
+                   <input class="par" type="text" name="contacts []">
+               <% } else { %>
+                   <input type="text" class="impar" name="contacts []">
+               <% } %>
+               <br>
+           <% } %>
+        </form>
+    </body>
+</html>
