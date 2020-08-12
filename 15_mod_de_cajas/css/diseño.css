@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+.caja1{
+    background-color: cornflowerblue;
+    width: 20%;
+    margin: auto;
+    padding: 2px 40px;
+}
+.caja2{
+    background-color: springgreen;
+    margin: 10px;
+    padding: 15px 8px;
+}
+footer {
+    background-color: yellow;
+    clear: both;
+    padding: 10px 10px;
+}
+article strong{
+    background-color: saddlebrown ;
+}
+article.borde {
+    border: 2px dotted black
+}
+.borde{
+    padding: 15px 8px;
+    background-color: violet;
+    margin: 10px;
+}
+article{
+    float:left;
+    width: 45%;
+}
+section{
+    overflow: hidden;
+    background-color: grey;
+}

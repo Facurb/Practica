@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>SING iN</title>
+</head>
+    <body>
+        <h1>Registration</h1>
+        
+        <form action="index.html" method="GET">
+            <p><label for="email"> ~Email~ </label></p>
+            <p><input type="email" id="email" name="email" ></p>
+            <p><label for="password"> ~password~ </label></p>
+            <p><input type="password" name="password" id="password"></p>
+
+            <p><label for="">Fuiste al cine este ultimo mes?</label></p>
+            <p><input type="radio" name="cine" value="s"> Si</p>
+            <p><input type="radio" name="cine" value="n" checked> No</p>
+
+            <label for="">Generos Preferidos</label> <br>
+            <input type="checkbox" value="t" name="genero"> Terror  <br>
+            <input type="checkbox" value="a" name="genero"> Acción  <br>
+            <input type="checkbox" value="c" name="genero"> Comedia <br>
+
+            <p><label for=""> Seleccione País </label></p>
+            <select name="pais" id="">
+                <option value="AR"> Argentina </option>
+                <option value="CL"> Chile </option>
+                <option value="PE"> Perú </option>
+            </select>
+
+            <p><label for="">Dejá tu comentario</label></p>
+            <textarea name="Comentario" id="" cols="50" rows="8"></textarea>
+
+            <p><button type="submit"> Enviar Formulario </button></p>
+            <p><button type="reset"> Reestablecer </button></p>
+        </form>
+    </body>
+</html>

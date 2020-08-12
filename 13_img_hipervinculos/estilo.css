@@ -1,0 +1,23 @@
+p {
+      font-size: 17px;
+      font-weight: bolder;
+      font-family: cursive;
+      font-style: normal;
+}
+p.subrayado{
+    text-decoration: underline;
+}
+.subrayado{
+    color: rgba(0, 255, 255, 0.7);
+}
+h1{
+    font-size: 45px;
+}
+.color{
+    color: blueviolet;
+    line-height: 30px;
+    background-color: black;
+}
+body{
+    background-image: url("img/background.jpg")
+}
