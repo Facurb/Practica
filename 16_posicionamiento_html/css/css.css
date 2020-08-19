@@ -1,0 +1,25 @@
+.izq{
+    float: left;
+   
+}
+.z-index{
+    color: red;
+    position: absolute;
+    top: 100px;
+    left: 20px;
+    z-index: 1;
+    background-color: chartreuse;
+}
+h1{
+    color: blue;
+    text-decoration: underline;
+}
+.der{
+    float: right;
+    position: relative;
+    bottom: 15px;
+}
+footer{
+    position: relative;
+    bottom: 11px;
+}

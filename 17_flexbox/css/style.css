@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(0, 33, 105);
+}
+.container{
+    margin: 8% 10% 2%;
+}
+section{
+    width: 100%;
+    border-radius: 10px;
+    background: pink;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: unset;
+}
+article{
+    width: 152px;
+    border-radius: 30px;
+    padding: 8%;
+    background-color: white;
+    margin: 3%;
+}
+article img{
+    width: 100%;
+}
+.art1{
+    flex-grow: 0.5;
+    order: 1;
+}
+.art2{
+    flex-grow: 0.5;
+}
+.art3{
+    flex-grow: 0.5;
+}
+.art4{
+    flex-grow: 0.5;
+    order: -1;
+}
