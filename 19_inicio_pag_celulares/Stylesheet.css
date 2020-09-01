@@ -1,0 +1,163 @@
+.enc{
+    background: url(img/banner2.jpg) no-repeat;
+    margin: 181px 0 0 0;
+}
+.tienda{
+    display:flex;
+    justify-content: flex-end;
+}
+.banner{
+    color: white;
+    justify-content: flex-start;
+}
+.ini{
+    margin: 100px 0 0 0;
+}
+#ban{
+    display: flex ;
+    align-content: flex-end;
+    align-items: center;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+}
+#img{
+    width: 35%;
+}
+#logo_top{
+    width: 70px;
+    margin: 20px 0px 0px 45px;
+}
+#logo_foot{
+    width: 50px;
+    margin: 15px 20px 10px 30px;
+}
+.legal{
+    color: #00a9e0;
+    background-color: thistle;
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+}
+#foot{
+    display: flex;
+    align-items: center;
+}
+#h2{
+    color: #00a9e0;
+    display: flex;
+    justify-content: center;
+    padding: 4% 0% 0% 0%;
+}
+article{
+    margin: 20px 0px;
+    
+} 
+article img{
+    max-width: 320px;
+    max-height: 380px;
+}
+.art{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 4%;
+}
+#art{
+    background-color: thistle;
+}
+section{
+    text-align: center;
+}
+button{
+    color: white;
+    margin: 4%;
+    border: 1px solid #5bc500;
+    border-radius: 4px;
+    width: 40%;
+    background-color: #5bc500;
+    padding: 20px;
+    font-weight: bold;  
+    max-width: 350px;
+}
+h3{
+    display: flex;
+    justify-content: center;
+}
+.bann{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+#ver{
+    text-align: center;
+}
+#tienda{
+    text-align: right;
+}
+#blue_but{
+    color: white;
+    background-color: #00a9e0;
+    box-shadow: 6px 6px 5px 0 hsla(0, 0%, 80%, 0.329);
+    width: 62%;
+}
+a{
+    display: flex;
+    justify-content: space-between;
+}
+.head{
+    background-color: white;
+    text-align: left;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row;
+    margin: 47px 0px 0px 0px;
+}
+header{
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    z-index: 1;
+}
+.btn{
+    margin: 0px;
+}
+footer p{
+    margin-top: 15px;
+    margin: 0 0 0 15px;
+    font-size: 13px;
+}
+.btn_tienda{
+    margin: 0px 0px 10px 0px;
+    font-size: 20px;
+    color: white;
+    width: 320px;
+}
+@media (max-width: 628px ){
+    div.row{
+        flex-flow: wrap;
+        align-items: center;        
+    }
+    .enc{
+        margin: 233px 0 0 0;
+    }
+}
+@media (max-width: 476px) {
+    div.row{
+        margin: 23px 0px 0px 0px;
+    }
+}
+@media (max-width: 376px){
+    .enc{
+        margin: 258px 0px 0px 0px ;
+    }
+}
+@media (max-width: 330px) {
+    div.row{
+        margin: 0px;
+    }
+}

@@ -1,0 +1,31 @@
+#parrafo1{
+    background-color:#17a2b8;
+}
+#parrafo2{
+    background-color: sienna;
+}
+#parrafo3{
+    background-color: red;
+}
+#parrafo4{
+    background-color: yellow;
+}
+#parrafo5{
+    background-color: orangered;
+}
+#parrafo6{
+    background-color: green;
+}
+[ id^="parrafo"] {
+    color: white;
+    font-weight: bold;
+    padding: 15px;
+}
+.btn-info{
+    background-color: black;
+    border-color: black;
+}
+.card-body{
+    background-color: hotpink;
+    font-weight: bold;
+}
